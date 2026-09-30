@@ -6,7 +6,7 @@ I built this report to practice the full reporting workflow: importing and prepa
 
 ## Dashboard preview
 
-![Amazon products sales analysis dashboard](assets/dashboard-overview.png)
+<img width="1915" height="951" alt="dashboard-overview" src="https://github.com/user-attachments/assets/05308ae6-cd56-48ff-8289-11cd6a670895" />
 
 The report includes product-category and quarter slicers, KPI cards, time-series charts, a category performance matrix, and product rankings.
 
@@ -58,7 +58,7 @@ I created a separate date table in Power BI rather than relying only on the sour
 | Quarter Number | Numeric quarter ordering |
 | Quarter | Readable quarter labels, such as Qtr 1 |
 
-![Date table created with DAX](assets/dax-date-table.png)
+<img width="785" height="332" alt="dax-date-table" src="https://github.com/user-attachments/assets/2359cf7b-e1c5-4ce1-97c2-49d4f2408d60" />
 
 This work helped me practice calendar modeling, calculated columns, chronological sorting, and time-intelligence calculations.
 
@@ -136,12 +136,12 @@ This project strengthened my ability to turn reporting requirements into a Power
 - `assets/dax-date-table.png` — screenshot of the DAX-created date table.
 - `dax/date-table.dax` — original DAX for the date table and its five calculated columns.
 - `dax/measures.dax` — original DAX for the four KPI measures.
-- `docs/portfolio-publishing-guide.md` — steps for adding the Power BI file, documenting DAX, and presenting the project online.
+- 'Amazon_Combined_Data.xlsx' - excel spreadsheet containing data. 
 
-The screenshots provide an immediate preview, and the DAX files document the calculation logic. The `.pbix` file is not included in this package yet.
+The screenshots provide an immediate preview, and the DAX files document the calculation logic. The `.pbix` file is also included in this package.
 
 ## Acknowledgments
 
 The supplied problem statement and functionality references informed the project requirements. The Power BI implementation and DAX date-table work described here were completed by me.
 
-<!-- Before publishing, add the original dataset/tutorial title and URL here. Do not imply that the dataset was collected by you unless it was. -->
+https://drive.google.com/drive/folders/1ZYSOUAGpZKqzBTV9curE9F_lviO0kGUK
