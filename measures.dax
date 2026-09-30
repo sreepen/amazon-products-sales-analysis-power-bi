@@ -1,0 +1,12 @@
+// Create each expression below as a separate measure in Power BI.
+// Original formulas supplied by the project author.
+
+QTD Sales = TOTALQTD(SUM(Amazon_Data[Price(Dollar)]), 'Date Table'[Date])
+
+// Counts nonblank category entries, not distinct products or a quantity field.
+YTD Products Sold = TOTALYTD(COUNT(Amazon_Data[Product Category]), 'Date Table'[Date])
+
+// Sums review counts on records in the YTD date context.
+YTD Reviews = TOTALYTD(SUM(Amazon_Data[Number of reviews]), 'Date Table'[Date])
+
+YTD Sales = TOTALYTD(SUM(Amazon_Data[Price(Dollar)]), 'Date Table'[Date])

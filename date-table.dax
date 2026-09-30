@@ -1,0 +1,16 @@
+// Original formulas supplied by the project author.
+// First create this calculated table:
+Date Table = CALENDAR(MIN(Amazon_Data[Order Date]), MAX(Amazon_Data[Order Date]))
+
+// Then create each expression below as a separate column in Date Table.
+Month Name = FORMAT('Date Table'[Date], "MMM")
+
+Month Number = MONTH('Date Table'[Date])
+
+// Create Quarter Number before Quarter, which references it.
+Quarter Number = QUARTER('Date Table'[Date])
+
+Quarter = CONCATENATE("Qtr ", 'Date Table'[Quarter Number])
+
+// Weeks start on Sunday; the week containing January 1 is week 1.
+Week = WEEKNUM('Date Table'[Date], 1)
