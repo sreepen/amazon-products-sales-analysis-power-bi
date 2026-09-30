@@ -64,7 +64,7 @@ This work helped me practice calendar modeling, calculated columns, chronologica
 
 The table uses `CALENDAR` from the earliest to the latest Order Date in the source. Month labels use `FORMAT` with `MMM`; month and quarter numbers use `MONTH` and `QUARTER`. Quarter labels concatenate `Qtr ` with the quarter number. The week containing January 1 is week 1.
 
-See the [original date-table and calculated-column expressions](dax/date-table.dax).
+See the in date-table.dax. 
 
 ## KPI measures written in DAX
 
@@ -85,7 +85,7 @@ YTD Sales = TOTALYTD(SUM(Amazon_Data[Price(Dollar)]), 'Date Table'[Date])
 | YTD Reviews | Sum of `Number of reviews` over the year-to-date date context |
 | YTD Sales | Sum of `Price(Dollar)` over the year-to-date date context |
 
-The measures use calendar-year time intelligence and respond to the report's date and filter context. Their original expressions are also available in [measures.dax](dax/measures.dax).
+The measures use calendar-year time intelligence and respond to the report's date and filter context. Their original expressions are also available in measures.dax
 
 ## KPIs and visuals
 
