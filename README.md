@@ -136,7 +136,7 @@ This project strengthened my ability to turn reporting requirements into a Power
 - `assets/dax-date-table.png` — screenshot of the DAX-created date table.
 - `dax/date-table.dax` — original DAX for the date table and its five calculated columns.
 - `dax/measures.dax` — original DAX for the four KPI measures.
-- 'Amazon_Combined_Data.xlsx' - excel spreadsheet containing data. 
+- `Amazon_Combined_Data.xlsx` - excel spreadsheet containing data. 
 
 The screenshots provide an immediate preview, and the DAX files document the calculation logic. The `.pbix` file is also included in this package.
 
